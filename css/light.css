@@ -1,0 +1,130 @@
+:root{
+    --red: #dd1c1a;
+    --dark: #011627;
+    --yellow: #f0c808 ;
+    --light: #f6f6f6;
+    --lBlue: #bfcde0;
+    --yellowL: #e5bf07;
+    --redL: #c90f0d;
+    --blue: #6cabff;
+    --blueL: #3174d0;
+    --fFamily: 'Poppins', sans-serif;
+    --darkShadowSm: 4px 4px 15px rgba(211,211,211,0.158);
+    --darkShadowLg: 2px 2px 10px rgba(211,211,211,0.158);
+    --lightShadow: 2px 2px 10px rgba(0,0,0,0.15);
+}
+body.light {
+   background-color: var(--light);
+   color: var(--dark);
+}
+
+body.light  a{
+
+   color: var(--dark);
+
+}
+
+
+body.light .title {
+    
+    color: var(--blueL);
+ 
+}
+body.light .navbar .logo, .navbar .navtheme {
+    color: var(--light);
+}
+
+
+body.light .navbar .navtheme span:hover{
+    
+    color: var(--yellowL);
+}
+body.light .navbar .navlinks .navlink{
+    color: var(--light);
+}
+body.light .navbar .navlinks .navlink:hover{
+    color: var(--yellowL);
+}
+
+
+body.light .hero .herobtns .btn {
+     color: var(--dark);
+     background-color: var(--yellowL);
+     
+     
+}
+
+body.light .hero .herobtns .btn:hover {
+    color: var(--dark);
+   
+
+} 
+
+
+body.light .about .aboutbtn {
+    color: var(--dark);
+    background-color: var(--yellowL);
+    
+}
+
+body.light .about .aboutbtn:hover {
+   color: var(--dark);
+   box-shadow:  2px 2px 10px var(--yellowL);
+   
+} 
+
+
+
+
+body.light .skills .cardrow .card{
+    box-shadow: var(--lightShadow);
+   
+    
+}
+
+body.light .skills .cardrow .card .cardcontentLg {
+    background-color: var(--yellowL);
+    color: var(--dark);
+    
+}
+
+
+body.light .projects .cardrow .card img{
+    box-shadow: var(--lightShadow);
+   
+}
+
+    body.light .contact .iconsrow .icon:hover i {
+    color: var(--yellowL);
+    
+}
+
+@media screen and (max-width: 860px){
+    
+
+    /* Navbar Css */
+    body.light .navbar{
+       
+        box-shadow: var(--lightShadow);
+        
+    }
+   
+    body.light .themeSs:hover {
+     color: var(--yellowL);
+     
+    }
+
+    
+    body.light .skills .cardrow .card .cardcontentSm{
+       
+       background-color: var(--yellowL);
+       
+       color: var(--dark);
+    
+   }
+
+ 
+}       
+     
+
+
