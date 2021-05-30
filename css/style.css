@@ -205,6 +205,15 @@ body ul {
    text-align: justify;
 }
 
+.aboutcontent .link {
+    color: var(--blue);
+    transition: all 200ms ease-in-out;
+}
+.aboutcontent .link:hover {
+    color: var(--blueL) ;
+    transform: translateY(-10%);
+}
+
 .about .aboutbtn {
     width: 150px;
     text-align: center;
